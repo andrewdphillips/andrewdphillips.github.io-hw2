@@ -1,0 +1,47 @@
+body {
+    background-image: url('grey.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .container {
+      font-family: 'PT Serif', serif;
+      line-height: 1.5;
+      letter-spacing: 1.5;
+  }
+
+  .col-lg-8 {
+      background-color: white;
+  }
+
+  .text1 {
+      color: rgb(41, 155, 143);
+      font-size: 30px;
+      padding-top: 20px;
+      padding-left: 10px;
+  }
+
+  .name {
+      background-color: rgb(41, 155, 143);
+      padding: 15px;
+      font-family: 'PT Serif', serif;
+      color: white;
+      margin-left: 50px;
+     
+  }
+
+  footer {
+      color: white;
+      font-size: small;
+      text-align: center;
+      background-color: grey;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-top:  rgb(41, 155, 143) solid 5px;
+  }
+
+  @media screen and (max-width:991px) {
+      .navbar-brand {display:block}
+      .collapse .navbar-collapse {display: block;}
+  }
