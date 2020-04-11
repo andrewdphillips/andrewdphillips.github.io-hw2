@@ -60,6 +60,11 @@ body {
      
   }
 
+.img-thumbnail {
+  width: 250px;
+  height: 290px;
+}
+
 footer {
     color: white;
     font-size: small;
@@ -79,6 +84,37 @@ footer {
       text-align: center;
   }
 
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.pic1 {
+  
+  text-align: center;
+  opacity: .8;
+  
+  
+}
+
+.btn1 { 
+  background-color: rgb(41, 155, 143);
+  color: white;
+  padding: 10px;
+
+}
+
+.pic2 {
+  padding-top: 5px;
+  margin-left: 30px;
+  margin-top: -60px;
+  opacity: .8;
+}
 
 @media (max-width: 769px) {
     body {
